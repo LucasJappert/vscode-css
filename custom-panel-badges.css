@@ -1,0 +1,53 @@
+:root {
+  --badge-color: #8c2eff !important;
+}
+
+.monaco-workbench .part.panel .composite.title .badge {
+  background-color: #8c2eff !important; /* Fondo del círculo */
+  color: #FFFFFF !important;           /* Color del número */
+  font-weight: bold !important;
+  border-radius: 10px !important;
+}
+.badge-content {
+  background-color: #8c2eff !important; /* Fondo del círculo */
+}
+.action-label {
+    /* background-color: #8c2eff !important; */
+    color: #8c2eff !important;
+    /* font-weight: bold !important; */
+    border-radius: 10px !important;
+}
+.monaco-workbench .part.sidebar>.header-or-footer>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item:hover .action-label {
+	color: #cb2eff !important;
+}
+.action-label.uri-icon {
+    background: #8c2eff !important;
+}
+.action-label.uri-icon:hover {
+	background: #cb2eff !important;
+	color: #cb2eff !important;
+}
+.tab-actions-right .label-name {
+	text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000;
+    padding: 0 3px;
+}
+.explorer-item .label-name {
+	color: #bb9af7 !important;
+}
+.monaco-decoration-itemColor--65c53t .label-name {
+	color: #f82286 !important;
+}
+
+.monaco-decoration-itemBadge--65c53t::after {
+    color: #f82286 !important;
+	font-weight: bold !important;
+}
+.breadcrumbs-below-tabs {
+	display: none !important;
+}
+.part.panel.basepanel.bottom.pane-composite-part .label-name {
+    color: #bb9af788 !important;
+}
+.part.panel.basepanel.bottom.pane-composite-part .marker-message .monaco-highlighted-label {
+    color: #bb9af747 !important;
+}
