@@ -119,3 +119,32 @@
 .monaco-workbench .part.panel>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item:focus .action-label, .monaco-workbench .part.panel>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item .action-label {
 	color: #bb9af788 !important;
 }
+.composite.panel span,
+.composite.panel p {
+	color: #bb9af788 !important;
+}
+.composite.panel .error span,
+.composite.panel .error p,
+.composite.panel span.value.warn,
+.composite.panel p.value.warn {
+	color: #cb2eff !important;
+}
+code-foreground-colored
+
+.part.panel>.title>.title-actions .switch-terminal>.monaco-select-box,
+.monaco-workbench .select-container:after {
+	color: #bb9af788 !important;
+}
+
+
+/* STATUS BAR */
+.monaco-workbench .part.statusbar>.items-container>.statusbar-item {
+	color: #bb9af788 !important;
+}
+.monaco-workbench .part.statusbar>.items-container>.statusbar-item {
+	color: #bb9af788 !important;
+}
+.monaco-workbench:not(.hc-light):not(.hc-black) .part.statusbar>.items-container>.statusbar-item a:hover:not(.disabled) {
+	background-color: #a962ff11 !important;
+	color: #cb2eff !important;
+}
