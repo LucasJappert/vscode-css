@@ -52,25 +52,22 @@
 /* GENERALS */
 
 /* EXPLORER PANEL */
-.composite.viewlet .pane-header,
-.composite.viewlet .twisty-container,
-.composite.title .title-label h2 {
+.explorer-viewlet .pane-header,
+.explorer-viewlet .twisty-container {
 	color: #cb2eff !important;
 }
-.composite.viewlet .monaco-tl-row .codicon-tree-item-expanded,
-.composite.viewlet .monaco-tl-row .label-name,
-.composite.viewlet .resource-group {
+.explorer-viewlet .monaco-tl-row .codicon-tree-item-expanded,
+.explorer-folders-view .monaco-list-row .label-name {
 	color: #a962ff77 !important;
 }
-
-.composite.viewlet .monaco-list-row:hover,
-.composite.viewlet .monaco-list-row.focused,
-.composite.viewlet .monaco-list-row.selected {
+.explorer-folders-view .monaco-list-row:hover,
+.explorer-folders-view .monaco-list-row.focused,
+.explorer-folders-view .monaco-list-row.selected {
 	background-color: #a962ff11 !important;
 }
-.composite.viewlet .monaco-list-row:hover .label-name,
-.composite.viewlet .monaco-list-row.focused .label-name,
-.composite.viewlet .monaco-list-row.selected .label-name {
+.explorer-folders-view .monaco-list-row:hover .label-name,
+.explorer-folders-view .monaco-list-row.focused .label-name,
+.explorer-folders-view .monaco-list-row.selected .label-name {
 	color: #cb2eff !important;
 }
 
@@ -151,10 +148,32 @@ code-foreground-colored
 	background-color: #a962ff11 !important;
 	color: #cb2eff !important;
 }
-.monaco-workbench .part.statusbar>.items-container>.statusbar-item.warning-kind {
-	background-color: #a962ff11 !important;
+
+/* EDITOR PANEL */
+.mtk17 {
+    color: #a962ff; /* Class names */
+}
+.mtk19 {
+    color: #9162ff; /* Constants */
+}
+.mtk9, .mtk27 {
+    color: #BF00FFaa; /* Node names, numbers, literals */
+}
+.mtk29 { 
+	color: #907AFF !important; /* function names */
+}
+.mtk28 { 
+	color: #bb9af788 !important; /* key words */
 }
 
 
 /* EDITOR PANEL */
-
+.mtk17 {
+    color: #cb2eff; /* Class names */
+}
+.mtk29 {
+    color: #D789FF;
+}
+.mtk28 {
+    color: #D789FF88;
+}
