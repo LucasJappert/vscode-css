@@ -50,6 +50,16 @@
 }
 
 /* GENERALS */
+.monaco-editor .zone-widget .zone-widget-container.exception-widget {
+	background-color: #8e23b1 !important;
+    border-top-color: #cb2eff !important;
+    border-bottom-color: #cb2eff !important;
+	color: #000000;
+}
+.monaco-editor .zone-widget .codicon-widget-close:before {
+	color: #000000;
+    font-weight: 600;
+}
 
 /* EXPLORER PANEL */
 .composite.viewlet .pane-header,
